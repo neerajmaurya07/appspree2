@@ -83,5 +83,4 @@ test:
 production:
   <<: *default
   database: appspree2_production
-  username: appspree2
-  password: <%= ENV['APPSPREE2_DATABASE_PASSWORD'] %>
+  
